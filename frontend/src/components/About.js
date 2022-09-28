@@ -13,7 +13,7 @@ function About(){
             </div>
             <div className="_textArea">
                 <div className="_name">
-                    <h1>I'm NagaSivaji</h1>
+                    <h1>ABOUT ME</h1>
                 </div>
                 <div className="_list">
                     <ul>

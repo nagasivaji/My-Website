@@ -33,21 +33,23 @@
     font-weight: bold;
     padding-top: 80px;
     /* background-color: #8758ff5d; */
+    /* padding-left: 30px; */
 }
 
 ._aboutArea ._textArea ._name {
     text-align: center;
-    color: #8758FF;
+    color: #000000;
     font-size: 30px;
     letter-spacing: 2px;
 }
 
 ._aboutArea ._textArea ._list {
-    color: #8758FF;
-    margin-top: 10px;
+    color: #000000;
+    margin-top: 30px;
+    padding-left: 50px;
 }
 
 ._aboutArea ._textArea ._list ul li {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-weight: normal;
 }
