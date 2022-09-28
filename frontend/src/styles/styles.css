@@ -1,0 +1,23 @@
+/* 
+
+    Fonts:
+        font-family: 'McLaren', cursive;
+        font-family: 'Ubuntu', sans-serif;
+
+    Colors:
+        Purple  : 8758FF
+        White   : FFFFFF
+        Gray    : EEEEEE
+        Navy    : 1C3879
+
+*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Ubuntu;
+    /* font-family: McLaren; */
+}

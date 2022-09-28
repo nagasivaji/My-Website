@@ -1,0 +1,33 @@
+._aboutArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 5px 100px;
+}
+
+._aboutArea div {
+    border: 1px dotted black;
+}
+
+._aboutArea ._imageArea {
+    width: 40%;
+    height: 100%;
+    /* text-align: right; */
+}
+
+._aboutArea ._imageArea img {
+    width: 550px;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: -50px;
+}
+
+._aboutArea ._textArea {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    font-weight: bold;
+    padding-top: 80px;
+}
