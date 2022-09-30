@@ -1,10 +1,11 @@
 ._aboutArea {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     padding: 5px 100px;
+    /* border: 1px dotted black; */
 }
 
 
@@ -12,44 +13,53 @@
     border: 1px dotted black;
 } */
 
-._aboutArea ._imageArea {
-    width: 40%;
-    height: 100%;
-    /* text-align: right; */
-    /* background-color: #8758ff80; */
+._aboutArea ._titleArea {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: McLaren;
 }
 
-._aboutArea ._imageArea img {
+._aboutArea ._titleArea h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+._aboutArea ._titleArea p {
+    color: #777;
+    font-size: 16px;
+}
+
+._aboutArea ._contentArea {
+    display: flex;
+}
+
+._aboutArea ._contentArea ._imageArea {
+    width: 40%;
+    height: 100%;
+}
+
+._aboutArea ._contentArea ._imageArea img {
     width: 550px;
     height: 350px;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-left: -50px;
 }
 
-._aboutArea ._textArea {
+._aboutArea ._contentArea ._textArea {
     width: 60%;
     height: 100%;
     position: relative;
     font-weight: bold;
-    padding-top: 80px;
-    /* background-color: #8758ff5d; */
-    /* padding-left: 30px; */
 }
 
-._aboutArea ._textArea ._name {
-    text-align: center;
+._aboutArea ._contentArea ._textArea ._list {
     color: #000000;
-    font-size: 30px;
-    letter-spacing: 2px;
-}
-
-._aboutArea ._textArea ._list {
-    color: #000000;
-    margin-top: 30px;
+    margin-top: 0px;
     padding-left: 50px;
 }
 
-._aboutArea ._textArea ._list ul li {
+._aboutArea ._contentArea ._textArea ._list ul li {
     margin-bottom: 15px;
     font-weight: normal;
+    /* font-size: 18px; */
 }

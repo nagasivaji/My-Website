@@ -1,0 +1,32 @@
+._skillsArea {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 5px 100px;
+    /* border: 1px dotted black; */
+}
+
+
+/* ._skillsArea div {
+    border: 1px dotted black;
+} */
+
+._skillsArea ._titleArea {
+    text-align: center;
+    margin: 20px auto;
+    font-family: McLaren;
+}
+
+._skillsArea ._titleArea h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+._skillsArea ._titleArea p {
+    color: #777;
+    font-size: 16px;
+}
+
+._skillsArea ._contentArea {
+    font-family: Ubuntu;
+}

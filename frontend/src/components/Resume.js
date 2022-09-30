@@ -28,7 +28,7 @@ function Resume(){
                            <ResumeTimeLine 
                               data = {
                                  {
-                                    time: "June 2022 - ",
+                                    time: "July 2022 - ",
                                     designation : "Jr Software Engineer at Persistent Systems",
                                     text: "We gather your business and products information. We then determine the direction of the project and understand your goals and we combine your ideas with ours for an amazing website."
                                  }

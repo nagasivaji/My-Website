@@ -1,0 +1,8 @@
+<div className='col'>
+                        <div>
+                            <img src="https://icones.pro/wp-content/uploads/2021/05/icone-html-grise.png" alt="" />
+                        </div>
+                        <div>
+                            <h3>HTML</h3>
+                        </div>
+                    </div>

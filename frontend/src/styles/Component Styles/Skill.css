@@ -1,0 +1,27 @@
+._skillsArea ._contentArea ._card {
+    width: 100px;
+    height: 100px;
+    /* border: 1px solid black; */
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px rgb(152, 152, 152);
+    border-radius: 7px;
+    background-color: #8758FF;
+    transition: 0.7s;
+}
+
+._skillsArea ._contentArea ._card:hover {
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+}
+
+._skillsArea ._contentArea ._card p {
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+}
