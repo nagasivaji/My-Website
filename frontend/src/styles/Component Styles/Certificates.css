@@ -1,4 +1,4 @@
-._skillsArea {
+._certificatesArea {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -11,22 +11,32 @@
     border: 1px dotted black;
 } */
 
-._skillsArea ._titleArea {
+._certificatesArea ._titleArea {
     text-align: center;
     margin: 20px auto;
     font-family: McLaren;
 }
 
-._skillsArea ._titleArea h4 {
+._certificatesArea ._titleArea h4 {
     font-size: 40px;
     font-weight: 600;
 }
 
-._skillsArea ._titleArea p {
+._certificatesArea ._titleArea p {
     color: #777;
     font-size: 16px;
 }
 
-._skillsArea ._contentArea {
+._certificatesArea ._contentArea {
     font-family: Ubuntu;
+}
+
+.carousel-inner {
+    text-align: center;
+    margin: 20px 23%;
+}
+
+.carousel-inner .carousel-item {
+    width: 600px;
+    height: 400px;
 }

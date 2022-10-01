@@ -9,7 +9,7 @@ function About(){
     return (
         <div className="_aboutArea">
             <div className='_titleArea'>
-                <h4>ABOUT ME</h4>
+                <h4>About me</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
             <div className='_contentArea'>

@@ -11,17 +11,22 @@
     box-shadow: 2px 2px 5px rgb(152, 152, 152);
     border-radius: 7px;
     background-color: #8758FF;
-    transition: 0.7s;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 18px;
 }
 
 ._skillsArea ._contentArea ._card:hover {
     box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    background-color: #fff;
+    color: #8758FF;
+    /* font-size: 20px; */
 }
 
 ._skillsArea ._contentArea ._card p {
     font-family: Ubuntu;
-    font-size: 18px;
+    /* font-size: 18px; */
     font-weight: bold;
     letter-spacing: 1px;
-    color: #fff;
+    /* color: #fff; */
 }
