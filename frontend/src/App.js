@@ -5,7 +5,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Certificates from './components/Certificates';
+import Footer from './components/Footer';
 
 // Importing module which is responsible react routing
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
@@ -19,7 +19,7 @@ function App() {
             <Resume />
             <Skills />
             <Projects />
-            <Certificates />
+            <Footer />
         </BrowserRouter>
     );
 }

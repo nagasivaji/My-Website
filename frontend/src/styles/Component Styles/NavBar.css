@@ -63,3 +63,12 @@
     margin-top: 3px;
     cursor: pointer;
 }
+
+.offcanvas .offcanvas-body {
+    padding: 0px;
+}
+
+.offcanvas .offcanvas-body ._links {
+    display: flex;
+    flex-direction: column;
+}
